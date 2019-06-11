@@ -1,0 +1,8 @@
+<view class="container">
+  <scroll-view>
+    <view class="list" wx:for="{{history}}" wx:key="index" data-item="{{item}}" bindtap="onTapItem">
+      <text class="list-self">{{item.query}}</text>
+      <text class="list-target">{{item.result}}</text>
+    </view>
+  </scroll-view> 
+</view>

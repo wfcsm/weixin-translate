@@ -1,0 +1,25 @@
+@font-face {font-family: "iconfont";
+  src: 
+  url('https://at.alicdn.com/t/font_1236421_7jf45w82l7r.ttf?t=1560230485335') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('https://at.alicdn.com/t/font_1236421_7jf45w82l7r.svg?t=1560230485335#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icon-test:before {
+  content: "\e62e";
+}
+
+.icon-quxiao:before {
+  content: "\e604";
+}
+
+.icon-lb:before {
+  content: "\e640";
+}

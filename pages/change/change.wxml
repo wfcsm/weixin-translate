@@ -1,0 +1,11 @@
+<!--logs.wxml-->
+<view class="container">
+
+    <view class="list" wx:for="{{langList}}" 
+                       wx:key="index" 
+                      bindtap="onTap"
+                      data-item="{{item}}">
+        <text class="list-item">{{item.chs}}</text>
+        <text class="iconfont icon-icon-test" wx:if="{{index === curLang.index}}"></text>
+    </view>
+</view>

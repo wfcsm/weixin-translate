@@ -1,0 +1,48 @@
+
+.change{
+  color: #8995a1;
+  font-size: 24rpx;
+  padding: 20rpx 40rpx;
+  display: flex;
+  align-items: center;
+  background-color: #eee
+}
+.change .icon-lb{
+  vertical-align: middle;
+  padding-left: 10rpx;
+  
+}
+.input-area{
+  position: relative;
+  background: #fff;
+  /* border-bottom: 1px solid #c7cee0; */
+}
+.input-area textarea{
+  width: calc(100% - 50rpx);
+  background-color: #fff;
+  box-sizing: border-box;
+  font-size: 30rpx;
+  padding: 20rpx 0 20rpx 50rpx; 
+}
+.input-area .icon-quxiao{
+  right: 12rpx;
+  top: 20rpx;
+  z-index: 100;
+  font-size: 30rpx;
+  color: #888;
+  position: absolute;
+}
+.output .output-title{
+  color: #8995a1;
+  font-size: 24rpx;
+  padding: 20rpx 40rpx;
+  display: flex;
+  align-items: center;
+  background-color: #eee
+}
+.output .text-result{
+  font-size: 30rpx;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20rpx 0 20rpx 50rpx;  
+}

@@ -1,0 +1,22 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="change">
+    <navigator url="/pages/change/change">
+      <text>自动检测语言并翻译为——{{curLang.chs}}</text>
+      <text class="iconfont icon-lb"></text>
+    </navigator>
+  </view>
+  <view class="input-area">
+    <text class="iconfont icon-quxiao" hidden="{{hideClearIcon}}" bindtap="onTapClose" ></text>
+    <view class="textarea-wrap">
+      <textarea class="" placeholder="您的输入" value="{{query}}" bindinput='onInput' bindconfirm='onConfirm' ></textarea>
+    </view>
+  </view>
+  <view class="output">
+    <text class="output-title">译文</text>
+    <view class="text-result"  wx:for="{{result}}" wx:key="index">
+        <text selectable="true">{{item.dst}}</text>
+    </view>
+  </view>
+  <view class="copyright"></view>
+</view>

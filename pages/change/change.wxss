@@ -1,0 +1,18 @@
+.list{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.list-item{
+  width: 100%;
+  padding: 20rpx;
+  background-color: #fff;
+  font-size: 30rpx;
+  border-bottom: 1px solid #eee;
+}
+.icon-icon-test{
+  fill: rgb(14, 102, 14);
+  position: absolute;
+  right: 30rpx;
+  top: 20rpx;
+}
